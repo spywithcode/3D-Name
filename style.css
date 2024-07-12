@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #333;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 0 0 10px rgb(9, 9, 9), 0 0 20px rgb(233, 82, 87), 0 0 40px rgb(9, 9, 9);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: #f4f4f4;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191;
+}
+
+footer {
+    position: fixed;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    perspective: 1000px;
+}
+
+footer a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
